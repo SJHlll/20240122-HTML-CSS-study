@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <!--
+    사용자가 입력한 값을 다른 곳으로 전달하려면
+    form 태그가 반드시 필요하다.
+    action : 전송할 정보를 처리할 페이지의 url
+            -> 웹 서버의 특정 url을 가리킴
+   -->
+  <form action="#" autocomplete="off">
+    <!--
+    name을 통해 추후에 서버 내부에 해당 입력값 지목 가능
+    -->
+    ID : <input type="text" name="ID" value="ㅎㅇ" placeholder="아이디"><br>
+    PW : <input type="password" name="PW" placeholder="비밀번호" required><br>
+    <!-- radio, checkbox는 value를 지정해야 데이터 전송이 가능함 -->
+    # 성별<br>
+    <input type="radio" name="gender" value="male"> 남
+    <input type="radio" name="gender" value="female"> 여<br>
+
+    # 취미<br>
+    <input type="checkbox" name="hobby" value="read"> 독서
+    <input type="checkbox" name="hobby" value="sleep"> 수면
+    <input type="checkbox" name="hobby" value="soccer"> 축구
+    <input type="checkbox" name="hobby" value="game"> 게임<br>
+
+    # 자기소개<br>
+    <textarea cols="30" rows="10" name="introduce"></textarea><br>
+    <!-- submit은 사용자가 입력한 값을 form action에 지정된 경로로
+        제출하는 용도로 쓰인다.
+        button 태그로도 구현 가능
+        (ex : <button type="submit">회원가입</button>) -->
+
+    <input type="email" name="mail" placeholder="이메일"><br>
+
+    <input type="number" name="age" min="1" max="200" placeholder="나이"><br>
+
+    <input type="range" min="0" max="10" step="1"><br>
+
+    <input type="file" name="upload"><br>
+
+    <input type="submit" value="회원가입">
+
+  </form>
+
+
+
+
+</body>
+
+</html>
