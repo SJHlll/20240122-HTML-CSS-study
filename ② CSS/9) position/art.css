@@ -20,17 +20,19 @@ body {
 } */
 
 header h1 {
-  height: 200px;
-  font-size: 4em;
+  height: 135px;
+  font-size: 5em;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: bold;
   text-align: center;
   background-color: #fda432;
   color: white;
+  line-height: 0.4;
+  padding-top: 40px;
 }
 
 header h1 span {
-  font-size: 0.2em;
+  font-size: 0.19em;
 }
 
 header h2 {
@@ -67,6 +69,7 @@ background-color: #dddddd;
   line-height: 2.5em;
   font-weight: bold;
   text-decoration: underline;
+  height: 700px;
 }
 
 .container .side-menu ul li a:hover {
@@ -84,6 +87,7 @@ background-color: #dddddd;
   padding: 5px;
   margin: 15px 5px;
   font-size: 0.7em;
+  font-weight: bold;
 }
 
 .container .main-content .artist {
@@ -104,6 +108,7 @@ background-color: #dddddd;
   width: 25%;
   background-color: white;
   padding: 8px;
+  height: 728.9px;
 }
 
 .banner h3 {
