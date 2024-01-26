@@ -1,0 +1,158 @@
+@import url(../../common.css);
+
+/* #wrapper {
+  width: 600px;
+  background-color: #999;
+  font-family: 굴림;
+} */
+body {
+  background-color: #999;
+  font-size: 14px;
+  line-height: 1.5;
+  /* 글 세로 거리 */
+  color: #333;
+  font-family: 굴림;
+}
+
+#wrapper {
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* header {
+  background-color: #164059;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  font-family: fantasy;
+} */
+
+header {
+  background-color: #164059;
+  padding: 10px;
+  color: white;
+}
+
+/* h1 {
+  font-size: 25px;
+  font-weight: bold;
+  color:#ccca38;
+} */
+
+header h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #ccca38;
+  text-align: center;
+  font-family: fantasy;
+}
+
+/* h1 strong {
+  color: white;
+  font-size: 2.5em;
+} */
+
+header h1 strong {
+  font-size: 2em;
+  color: white;
+}
+
+/* h1 span {
+  font-size: 1.5em;
+} */
+
+header h1 span {
+  font-size: 1.2em;
+}
+
+/* h1 em {
+  color: #ccc;
+} */
+
+header h1 em {
+  color: #ccc;
+  font-size: 1.6em;
+}
+
+/* .menu {
+  text-decoration: underline;
+  background-color: #ccc;
+  float: left;
+  width: 20%;
+  height: 500px;
+} */
+
+.container {
+  background-color: #ccc;
+}
+
+.container .menu {
+  float: left;
+  width: 20%;
+  padding: 20px;
+}
+
+/* .container .menu a {
+  margin-left: 20px;
+  font-size: 12px;
+} */
+
+.container .menu li {
+margin-bottom: 8px;
+text-decoration: underline;
+}
+
+.container .menu a:hover {
+  color: yellow;
+}
+
+/* .container.content {
+  width: 80%;
+  height: 500px;
+} */
+
+.container .content {
+  background-color: white;
+  float: right;
+  width: 80%;
+}
+
+/* .container .content h2 {
+  background-color: #860006;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #eeec43;
+  font-family: 궁서;
+  font-weight: bold;
+  font-size: 20px;
+} */
+
+.container .content h2 {
+  background-color: #860006;
+  color: #eeec43;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 5px 20px;
+  font-family: 궁서,cursive;
+}
+
+/* .container .content p {
+  background-color: white;
+  font-size: 12px;
+  padding-top: 20px;
+} */
+
+.container .content p {
+  padding: 20px;
+  text-align: justify; /* 좌우똑같이 */
+}
+
+footer {
+  background-color: #aaaaaa;
+  padding: 10px 20px;
+}
+
+
+footer address {
+  color: black;
+}
