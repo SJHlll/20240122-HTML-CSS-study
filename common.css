@@ -9,6 +9,10 @@
 공용 css 파일에 공통적으로 지정할 스타일을 모아놓고
 간단하게 링크를 통해 불러올 수 있다.
 */
+/* 
+이 글씨체 영어 굵다
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+*/
 
 * {
   box-sizing: border-box;
