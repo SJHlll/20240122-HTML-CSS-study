@@ -9,7 +9,7 @@ body {
 }
 
 #wrapper {
-  width: 800px;
+  width: 1000px;
   margin: 0 auto;
 }
 
@@ -31,7 +31,6 @@ header h1 {
 
 header h1 span {
   font-size: 0.2em;
-  
 }
 
 header h2 {
@@ -39,6 +38,119 @@ header h2 {
   font-size: 0.6em;
   text-align: center;
   background-color: #cccccc;
-  margin: 2px 0;
+  padding: 2px 0;
 }
 
+.container {
+background-color: #dddddd;
+}
+
+.container .side-menu {
+  float: left;
+  width: 25%;
+}
+
+.container .side-menu h3 {
+  /* float: left; */
+  background-color: #970008;
+  color: white;
+  font-size: 0.7em;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.container .side-menu ul {
+  color: black;
+  background-color: white;
+  padding: 8px;
+  font-size: 0.7em;
+  line-height: 2.5em;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.container .side-menu ul li a:hover {
+  color: red;
+}
+
+.container .main-content {
+  float: left;
+  width: 50%;
+}
+
+.container .main-content .title {
+  background-color: #143654;
+  color: white;
+  padding: 5px;
+  margin: 15px 5px;
+  font-size: 0.7em;
+}
+
+.container .main-content .artist {
+  font-size: 0.7em;
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-left: 5px;
+}
+
+.container .main-content .detail {
+  font-size: 0.6em;
+  margin-left: 5px;
+}
+
+
+.container .banner {
+  float: right;
+  width: 25%;
+  background-color: white;
+  padding: 8px;
+}
+
+.banner h3 {
+  font-weight: bold;
+}
+
+.banner h3 span {
+  text-decoration: underline;
+}
+
+.banner h3 .all {
+  color: #999;
+}
+
+.banner h3 .love {
+  color: #fda432;
+}
+
+.banner .link {
+  margin-top: 20px;
+  font-size: 0.7em;
+}
+
+.banner .link li {
+  color: black;
+  margin-bottom: 10px;
+}
+
+.banner .link li a {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.banner .link li a:hover {
+  color: red;
+}
+
+footer {
+  background-color: #143654;
+  color: white;
+  text-align: center;
+  font-size: 0.6em;
+  padding: 5px 0;
+}
+
+footer address a {
+  text-decoration: underline;
+}
+footer address a:hover {
+  color: yellow;
+}
