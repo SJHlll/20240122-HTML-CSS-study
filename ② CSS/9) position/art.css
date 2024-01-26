@@ -9,7 +9,7 @@ body {
 }
 
 #wrapper {
-  width: 70%;
+  width: 800px;
   margin: 0 auto;
 }
 
@@ -20,6 +20,7 @@ body {
 } */
 
 header h1 {
+  height: 200px;
   font-size: 4em;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: bold;
@@ -29,6 +30,15 @@ header h1 {
 }
 
 header h1 span {
-  font-size: 0.3em;
+  font-size: 0.2em;
   
 }
+
+header h2 {
+  color: black;
+  font-size: 0.6em;
+  text-align: center;
+  background-color: #cccccc;
+  margin: 2px 0;
+}
+
