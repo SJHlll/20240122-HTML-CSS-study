@@ -33,6 +33,9 @@ header h1 {
 
 header h1 span {
   font-size: 0.19em;
+  /* display가 인라인도 블록처럼 바꿔줌 */
+  display: block;
+  margin-top: 40px;
 }
 
 header h2 {
@@ -40,12 +43,31 @@ header h2 {
   font-size: 0.6em;
   text-align: center;
   background-color: #cccccc;
-  padding: 2px 0;
+  padding: 3px 0;
 }
 
 .container {
 background-color: #dddddd;
 }
+
+/*
+
+컨테이너 하부의 요소인 사이드, 메인, 배너를 왼쪽으로 정렬함
+
+.container > * {
+  float: left;
+}
+
+*/
+/*
+
+만약 이런식이면 각 컨테이너 구별을 테두리를 통해 가능
+
+.container > * {
+  border: 3px solid blue;
+} 
+
+*/
 
 .container .side-menu {
   float: left;
@@ -90,6 +112,10 @@ background-color: #dddddd;
   font-weight: bold;
 }
 
+.container .main-content .title a:hover {
+  color: yellow;
+}
+
 .container .main-content .artist {
   font-size: 0.7em;
   font-weight: bold;
@@ -113,10 +139,12 @@ background-color: #dddddd;
 
 .banner h3 {
   font-weight: bold;
+  color: black;
 }
 
 .banner h3 span {
   text-decoration: underline;
+  display: block;
 }
 
 .banner h3 .all {
@@ -140,7 +168,9 @@ background-color: #dddddd;
 .banner .link li a {
   text-decoration: underline;
   font-weight: bold;
+  display: block;
 }
+
 .banner .link li a:hover {
   color: red;
 }
